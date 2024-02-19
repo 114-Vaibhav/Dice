@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(60, 60, 79);
+}
+
+.bigbox {
+    /* background-color: rgb(84, 85, 85); */
+    justify-content: center;
+    /* display: flex; */
+}
+
+.announcement {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 10px 10px 10px white;
+    margin-top: 100px;
+}
+
+.dices {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.dices img {
+    height: 200px;
+    width: 200px;
+
+}
+
+.Player {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 1px white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.button button{
+    height: 80px;
+    width: 300px;
+    color: white;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    background-color: rgb(60, 60, 79);
+    /* box-shadow: 5px 5px 5px white; */
+}
